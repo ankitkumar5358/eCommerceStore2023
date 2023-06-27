@@ -64,4 +64,4 @@ This project is licensed under the [MIT License](https://github.com/ankitkumar53
 
 ## Contact
 
-For any questions or inquiries, please contact [your-email@example.com](mailto:createrankit@gmail.com).
+For any questions or inquiries, please contact [your-ankit](mailto:createrankit@gmail.com).

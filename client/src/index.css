@@ -24,6 +24,8 @@
 
 .active {
   border-bottom: 2px solid black;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 .navbar-brand {
   font-weight: 700;
@@ -111,4 +113,13 @@
 .cat-btn:hover {
   background-color: #434343;
   color: white;
+}
+
+/* =========register us ========= */
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
 }
