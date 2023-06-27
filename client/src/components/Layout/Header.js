@@ -10,7 +10,7 @@ const Header = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <Link to="/" className="navbar-brand" > <GiShoppingBag/>Store </Link>
+      <Link to="/" className="navbar-brand" > <GiShoppingBag/> </Link>
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
           <NavLink to="/" className="nav-link active" aria-current="page" href="#">Home</NavLink>
