@@ -11,7 +11,6 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [auth, setAuth] = useAuth();
   const location = useLocation();
-
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -62,6 +61,12 @@ const Login = () => {
               placeholder="Enter Your Password"
               required
             />
+          </div>
+
+          <div className="mb-3">
+            <button type="button" className="btn btn-primary" onClick={() => { navigate("/forgot-password") }}>
+              Forgot Password
+            </button>
           </div>
 
           <button type="submit" className="btn btn-primary">
